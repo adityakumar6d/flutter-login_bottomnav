@@ -29,7 +29,7 @@ class PhotoCell extends StatelessWidget {
                     child: Hero(
                       tag: "image ${photo.id}",
                       child: FadeInImage.assetNetwork(
-                        placeholder: 'images/no-image.png',
+                        placeholder: 'assets/images/no-image.png',
                         image: photo.thumbnailUrl,
                         width: 100,
                         height: 100,

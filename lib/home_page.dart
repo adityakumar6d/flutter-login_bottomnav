@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
             ),
             onTap: () {
               Fluttertoast.showToast(
-                  msg: 'Clicked',
+                  msg: photo.title,
                   toastLength: Toast.LENGTH_SHORT,
                   gravity: ToastGravity.CENTER,
                   timeInSecForIosWeb: 1);
